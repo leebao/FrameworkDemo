@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
+        //分支
         ApiMethods.getTopMovie(new MyObserver<Movie>(observerOnNextListener),0,10);
     }
 }
